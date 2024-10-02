@@ -1,0 +1,45 @@
+/* global.css */
+body {
+    background-color: #1e1e1e; /* Background color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Fira Code', monospace; /* Consistent font family */
+    font-size: 14px; /* Base font size */
+    font-weight: 400; /* Ensure no bold text */
+    color: #00ff00; /* Text color */
+  }
+  
+  /* Ensure all text elements inherit the base font weight */
+  h1, h2, h3, h4, h5, h6, p, span, div, li, dt, dd, strong, b {
+    font-weight: 400 !important; /* Override bold text */
+  }
+  
+  /* Only necessary if you have non-MUI links */
+  a {
+    color: #007700; /* Dark green link color */
+    text-decoration: none;
+    font-weight: 400; /* Ensure no bold links */
+  }
+  
+  a:hover {
+    color: #0015ff; /* Dark green link color */
+    text-decoration: underline;
+  }
+  
+  /* Only necessary if you have non-MUI form elements */
+  input,
+  /* button, */
+  textarea,
+  select {
+    font-size: 14px;
+    color: #00ff00;
+    background-color: #1e1e1e;
+    border: 1px solid #007700; /* Dark green border */
+    font-weight: 400; /* Ensure no bold text in form elements */
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
